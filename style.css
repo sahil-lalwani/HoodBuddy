@@ -1,0 +1,106 @@
+.containerA {
+    width: 100vw;
+    height: 50vh;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column !important;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+.social-icons a {
+    margin: 4px; 
+}
+.headerA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.textboxA {
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+}
+
+.subscribeA {
+    margin-right: 20px; 
+}
+
+.inputBoxA {
+    padding: 10px;
+    border: 1px solid blue; 
+    border-radius: 5px;
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+}
+
+.linksA {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.navigateA {
+    padding: 5px;
+}
+
+.navigateA a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.navigateA a:hover {
+    background-color: #555;
+}
+
+.footerA {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.privacyA,
+.copyRightA {
+    font-size: 12px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
